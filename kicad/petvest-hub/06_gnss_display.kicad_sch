@@ -1,0 +1,797 @@
+(kicad_sch
+	(version 20250114)
+	(generator "petvest_gen")
+	(generator_version "1.0")
+	(uuid "27381ebd-632d-59c7-9548-93590d001fca")
+	(paper "A3")
+	(title_block (title "定位 GNSS模块 + OLED显示") (date "2026-11-07") (rev "A") (company "PetVest 智能宠物服装") (comment 1 "tools/gen_schematic.py 自动生成"))
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+				(pin_names
+					(offset 1.016)
+					(hide yes)
+				)
+				(exclude_from_sim no)
+				(in_bom yes)
+				(on_board yes)
+				(in_pos_files yes)
+				(duplicate_pin_numbers_are_jumpers no)
+				(property "Reference" "J"
+					(at 0 5.08 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Value" "Conn_01x04"
+					(at 0 -7.62 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Footprint" ""
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Datasheet" ""
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_keywords" "connector"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_fp_filters" "Connector*:*_1x??_*"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(symbol "Conn_01x04_1_1"
+					(rectangle
+						(start -1.27 3.81)
+						(end 1.27 -6.35)
+						(stroke
+							(width 0.254)
+							(type default)
+						)
+						(fill
+							(type background)
+						)
+					)
+					(rectangle
+						(start -1.27 2.667)
+						(end 0 2.413)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(rectangle
+						(start -1.27 0.127)
+						(end 0 -0.127)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(rectangle
+						(start -1.27 -2.413)
+						(end 0 -2.667)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(rectangle
+						(start -1.27 -4.953)
+						(end 0 -5.207)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(pin passive line
+						(at -5.08 2.54 0)
+						(length 3.81)
+						(name "Pin_1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at -5.08 0 0)
+						(length 3.81)
+						(name "Pin_2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at -5.08 -2.54 0)
+						(length 3.81)
+						(name "Pin_3"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "3"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at -5.08 -5.08 0)
+						(length 3.81)
+						(name "Pin_4"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "4"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(embedded_fonts no)
+			)
+		(symbol "Device:C"
+				(pin_numbers
+					(hide yes)
+				)
+				(pin_names
+					(offset 0.254)
+				)
+				(exclude_from_sim no)
+				(in_bom yes)
+				(on_board yes)
+				(in_pos_files yes)
+				(duplicate_pin_numbers_are_jumpers no)
+				(property "Reference" "C"
+					(at 0.635 2.54 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(property "Value" "C"
+					(at 0.635 -2.54 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(property "Footprint" ""
+					(at 0.9652 -3.81 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Datasheet" ""
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Description" "Unpolarized capacitor"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_keywords" "cap capacitor"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_fp_filters" "C_*"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(symbol "C_0_1"
+					(polyline
+						(pts
+							(xy -2.032 0.762) (xy 2.032 0.762)
+						)
+						(stroke
+							(width 0.508)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy -2.032 -0.762) (xy 2.032 -0.762)
+						)
+						(stroke
+							(width 0.508)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+				)
+				(symbol "C_1_1"
+					(pin passive line
+						(at 0 3.81 270)
+						(length 2.794)
+						(name ""
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 0 -3.81 90)
+						(length 2.794)
+						(name ""
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(embedded_fonts no)
+			)
+		(symbol "power:+3V3"
+				(power global)
+				(pin_numbers
+					(hide yes)
+				)
+				(pin_names
+					(offset 0)
+					(hide yes)
+				)
+				(exclude_from_sim no)
+				(in_bom yes)
+				(on_board yes)
+				(in_pos_files yes)
+				(duplicate_pin_numbers_are_jumpers no)
+				(property "Reference" "#PWR"
+					(at 0 -3.81 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Value" "+3V3"
+					(at 0 3.556 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Footprint" ""
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Datasheet" ""
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Description" "Power symbol creates a global label with name \"+3V3\""
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_keywords" "global power"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(symbol "+3V3_0_1"
+					(polyline
+						(pts
+							(xy -0.762 1.27) (xy 0 2.54)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 0 2.54) (xy 0.762 1.27)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 0 0) (xy 0 2.54)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+				)
+				(symbol "+3V3_1_1"
+					(pin power_in line
+						(at 0 0 90)
+						(length 0)
+						(name ""
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(embedded_fonts no)
+			)
+		(symbol "power:GND"
+				(power global)
+				(pin_numbers
+					(hide yes)
+				)
+				(pin_names
+					(offset 0)
+					(hide yes)
+				)
+				(exclude_from_sim no)
+				(in_bom yes)
+				(on_board yes)
+				(in_pos_files yes)
+				(duplicate_pin_numbers_are_jumpers no)
+				(property "Reference" "#PWR"
+					(at 0 -6.35 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Value" "GND"
+					(at 0 -3.81 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Footprint" ""
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Datasheet" ""
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_keywords" "global power"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(symbol "GND_0_1"
+					(polyline
+						(pts
+							(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+				)
+				(symbol "GND_1_1"
+					(pin power_in line
+						(at 0 0 270)
+						(length 0)
+						(name ""
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(embedded_fonts no)
+			)
+	)
+	(wire (pts (xy 114.3 82.55) (xy 109.22 82.55)) (stroke (width 0) (type default)) (uuid "c178b532-a18c-5cd5-b94e-c9cc24994446"))
+	(wire (pts (xy 114.3 152.4) (xy 109.22 152.4)) (stroke (width 0) (type default)) (uuid "31db2166-01c2-5105-bb48-54de4eff6357"))
+	(wire (pts (xy 154.94 101.6) (xy 154.94 96.52)) (stroke (width 0) (type default)) (uuid "10cc40b9-cc55-5f8a-b806-f3e7260c4a8e"))
+	(wire (pts (xy 114.3 85.09) (xy 109.22 85.09)) (stroke (width 0) (type default)) (uuid "ab47dad9-2ef2-518c-94c6-8375a9e25081"))
+	(wire (pts (xy 114.3 154.94) (xy 109.22 154.94)) (stroke (width 0) (type default)) (uuid "91e5293b-3fea-53fe-9f5b-e8969fa51f70"))
+	(wire (pts (xy 154.94 109.22) (xy 154.94 114.3)) (stroke (width 0) (type default)) (uuid "35491897-35d1-5026-a8d1-f4ed0aa246f7"))
+	(global_label "GPS_RXD" (shape passive) (at 114.3 87.63000000000001 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "927bcf6c-d374-5216-a592-a2639d9296eb"))
+	(global_label "GPS_TXD" (shape passive) (at 114.3 90.17 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "6118f336-564a-5382-9266-623640f099da"))
+	(global_label "I2C_SCL" (shape passive) (at 114.3 157.48 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "2b575a56-d0b4-5af9-a7ee-3ad690fcf721"))
+	(global_label "I2C_SDA" (shape passive) (at 114.3 160.02 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid "84896992-6158-5a8f-b059-81beb1918841"))
+(symbol
+	(lib_id "power:+3V3")
+	(at 109.22 82.55 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "0bfe80ec-5bd9-544e-8cc9-21a6d1f9ff33")
+	(property "Reference" "#PWR601" (at 80.00999999999999 80.00999999999999 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Value" "+3V3" (at 109.22 85.09 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "" (at 109.22 82.55 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "" (at 109.22 82.55 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "fdbfbf29-57ac-5697-81a9-92c54789433c"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "#PWR601") (unit 1))))
+)
+(symbol
+	(lib_id "power:+3V3")
+	(at 109.22 152.4 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "3b0a1d4b-e0ad-5181-9f98-64629838f129")
+	(property "Reference" "#PWR602" (at 149.86 149.86 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Value" "+3V3" (at 109.22 154.94 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "" (at 109.22 152.4 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "" (at 109.22 152.4 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "53215f8b-09f2-5961-ad72-bc0f73328998"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "#PWR602") (unit 1))))
+)
+(symbol
+	(lib_id "power:+3V3")
+	(at 154.94 96.52 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "b9c80d85-6da5-5fe4-b5c8-1613c1b0a5c0")
+	(property "Reference" "#PWR603" (at 93.97999999999999 93.97999999999999 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Value" "+3V3" (at 154.94 99.06 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "" (at 154.94 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "" (at 154.94 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "f6903ffb-7772-5d7d-90f8-99b7e939ea31"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "#PWR603") (unit 1))))
+)
+(symbol
+	(lib_id "power:GND")
+	(at 109.22 85.09 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "463b17be-abd3-5e0f-8752-e97ba971635c")
+	(property "Reference" "#PWR604" (at 87.63000000000001 87.63000000000001 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Value" "GND" (at 109.22 82.55 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "" (at 109.22 85.09 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "" (at 109.22 85.09 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "e730ab7c-855b-5942-9266-c407913155ad"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "#PWR604") (unit 1))))
+)
+(symbol
+	(lib_id "power:GND")
+	(at 109.22 154.94 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "4b919a17-2862-595a-9be9-ec504788c79a")
+	(property "Reference" "#PWR605" (at 157.48 157.48 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Value" "GND" (at 109.22 152.4 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "" (at 109.22 154.94 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "" (at 109.22 154.94 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "d1d1b3de-c96b-5730-b94d-fedf88450bfa"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "#PWR605") (unit 1))))
+)
+(symbol
+	(lib_id "power:GND")
+	(at 154.94 114.3 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "00f51cf1-7d0d-5b9e-8938-012bb8d8fef6")
+	(property "Reference" "#PWR606" (at 116.84 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Value" "GND" (at 154.94 111.75999999999999 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "" (at 154.94 114.3 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "" (at 154.94 114.3 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "c03ab7c7-99f4-563e-96b4-873d0b54d878"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "#PWR606") (unit 1))))
+)
+(symbol
+	(lib_id "Connector_Generic:Conn_01x04")
+	(at 119.38 85.09 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "d75af7c7-8402-591a-b95f-375a2d33cf48")
+	(property "Reference" "J50" (at 119.38 77.47 0) (effects (font (size 1.27 1.27))))
+	(property "Value" "Conn_01x04" (at 119.38 90.17000000000002 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "Connector_FFC-FPC:TE_84953-4_1x04-1MP_P1.0mm_Horizontal" (at 119.38 85.09 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "~" (at 119.38 85.09 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "7eaf088f-4f49-5197-b6ce-a8a13b9424eb"))
+	(pin "2" (uuid "4dfc2905-243c-5bca-af57-3bd93ece1b21"))
+	(pin "3" (uuid "685b7b9c-68cb-5f34-bc36-532eb563a00f"))
+	(pin "4" (uuid "c1892f7c-e078-52ed-807f-3f678edbfa21"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "J50") (unit 1))))
+)
+(symbol
+	(lib_id "Device:C")
+	(at 154.94 105.41 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "5714c47d-cc37-5aed-a6eb-58ea1635abd6")
+	(property "Reference" "C19" (at 154.94 99.05999999999999 0) (effects (font (size 1.27 1.27))))
+	(property "Value" "10µF" (at 154.94 111.76 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 154.94 105.41 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "~" (at 154.94 105.41 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "7b30dde7-84fe-5811-b970-b320c9194c7b"))
+	(pin "2" (uuid "c795a431-1577-523f-a26a-0bb38b66a472"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "C19") (unit 1))))
+)
+(symbol
+	(lib_id "Connector_Generic:Conn_01x04")
+	(at 119.38 154.94 0)
+	(unit 1)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(dnp no)
+	(uuid "f76df8d1-7b09-5708-9f9f-9185d4922bca")
+	(property "Reference" "J51" (at 119.38 147.32 0) (effects (font (size 1.27 1.27))))
+	(property "Value" "Conn_01x04" (at 119.38 160.01999999999998 0) (effects (font (size 1.27 1.27))))
+	(property "Footprint" "Connector_FFC-FPC:TE_84953-4_1x04-1MP_P1.0mm_Horizontal" (at 119.38 154.94 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(property "Datasheet" "~" (at 119.38 154.94 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(pin "1" (uuid "eac2a892-cf47-5677-8541-dd45f5c8f0d7"))
+	(pin "2" (uuid "51ca43c7-3bca-530d-a309-cbb76987e4ba"))
+	(pin "3" (uuid "f166076e-3e44-5f4d-8f16-de1c72b516a5"))
+	(pin "4" (uuid "461f0275-8e7c-5c9c-9a02-6a44ca71281f"))
+	(instances (project "petvest-hub" (path "/4b47774e-4d48-5c3c-81ec-38d7610c065a/27381ebd-632d-59c7-9548-93590d001fca" (reference "J51") (unit 1))))
+)
+	(text "GNSS: 引脚3=模块TXD→主控IO38(RX); 引脚4=模块RXD←主控IO21(TX); 需3.3V逻辑模块\n  天线面朝上, 远离ESP32天线/功放/USB; 犬背上方开窗对天线\nOLED: SSD1306 128x64 I2C 0x3C, 挂I2C0直连(不经复用器), 位置=胸带正面" (exclude_from_sim no) (at 28 35 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "325d726b-5c86-5cc9-9928-bf312636ecb4"))
+)

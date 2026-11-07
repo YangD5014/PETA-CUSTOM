@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "petvest")(type "KiCad")(uri "${KIPRJMOD}/petvest.kicad_sym")(options "")(descr "PetVest custom symbols"))
+)

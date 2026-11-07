@@ -1,0 +1,6 @@
+﻿PetVest IMU卫星节点(×6) — BOM,,,,,,
+位号,分类,Value/规格,封装,推荐型号,说明,数量
+C1,电容,100nF,Capacitor_SMD:C_0603_1608Metric,,,1
+C2,电容,4.7µF,Capacitor_SMD:C_0603_1608Metric,,,1
+J1,连接器,Conn_01x05,Connector_FFC-FPC:TE_84953-5_1x05-1MP_P1.0mm_Horizontal,,至Hub TCA9548A通道,1
+U1,IC,LSM6DS3TR-C,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,LSM6DS3TR-C,6轴IMU I2C 0x6A,1

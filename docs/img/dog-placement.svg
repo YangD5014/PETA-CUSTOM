@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 210" width="450">
+  <rect width="300" height="210" fill="#fafafa"/>
+  <g fill="none" stroke="#6b7280" stroke-width="2">
+    <ellipse cx="150" cy="186" rx="26" ry="16"/>
+    <path d="M150 176 C 150 150 148 130 150 108 C 152 84 150 70 150 58"/>
+    <ellipse cx="104" cy="120" rx="34" ry="22"/>
+    <ellipse cx="196" cy="120" rx="34" ry="22"/>
+    <ellipse cx="106" cy="58" rx="30" ry="20"/>
+    <ellipse cx="194" cy="58" rx="30" ry="20"/>
+    <path d="M150 58 C 140 46 128 42 118 44 M150 58 C 160 46 172 42 182 44"/>
+    <circle cx="121" cy="47" r="3.5" fill="#6b7280"/><circle cx="179" cy="47" r="3.5" fill="#6b7280"/>
+  </g>
+  <g font-size="11" fill="#111827">
+    <rect x="138" y="66" width="24" height="16" rx="3" fill="#2f6b4f"/>
+    <text x="168" y="78">Hub 主控</text>
+    <g fill="#c2703d">
+      <circle cx="150" cy="96" r="6"/><circle cx="118" cy="114" r="6"/><circle cx="182" cy="114" r="6"/>
+      <circle cx="120" cy="52" r="6"/><circle cx="180" cy="52" r="6"/><circle cx="150" cy="168" r="6"/>
+    </g>
+    <g fill="#6b7280">
+      <text x="158" y="100">IMU1 颈部</text><text x="76" y="112">IMU2 左前肩</text><text x="192" y="112">IMU3 右前肩</text>
+      <text x="60" y="46">IMU4 左后髋</text><text x="190" y="46">IMU5 右后髋</text><text x="158" y="172">IMU6 尾根</text>
+    </g>
+    <path d="M150 82 L150 90 M150 168 L150 156 M118 114 L142 76 M182 114 L158 76 M120 56 L140 70 M180 56 L160 70" stroke="#9ca3af" stroke-dasharray="3 3"/>
+  </g>
+</svg>

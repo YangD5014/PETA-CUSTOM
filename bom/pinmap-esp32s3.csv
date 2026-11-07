@@ -1,0 +1,22 @@
+﻿ESP32-S3 GPIO,功能,连接,备注
+IO0,输入/ strap,BOOT按键(板载),下载模式进入
+IO1,ADC1,电池分压 100k/100k,电池电压监测
+IO2,输出,MAX98357A SD_MODE,功放使能(100k下拉默认关)
+IO3,输入/ strap,MAX30102 INT(开漏+10k上拉),心率数据就绪
+IO4,I2S1,INMP441 WS,麦克风字选择
+IO5,I2S1,INMP441 SCK,麦克风位时钟
+IO6,I2S1,INMP441 SD,麦克风数据
+IO7,I2S0,MAX98357A DIN,功放数据
+IO8,I2C0,I2C_SDA(2.2k上拉),OLED/心率/电量计/TCA9548A
+IO9,I2C0,I2C_SCL(2.2k上拉),同上
+IO10,I2S0,MAX98357A BCLK,功放位时钟
+IO11,I2S0,MAX98357A LRC,功放左右声道
+IO12,输出,TCA9548A RESET(10k上拉),I2C复用器复位
+IO13-18,输入,IMU INT1-6,六节点数据就绪(可选轮询)
+IO19/20,USB,USB_D-/USB_D+ 经USBLC6,原生USB(烧录+串口)
+IO21,UART1 TX,GPS模块 RXD,GPS配置/命令
+IO38,UART1 RX,GPS模块 TXD,NMEA接收
+IO47,输出,蓝色LED 1k,状态指示
+IO48,输出,RGB_DIN 测试点(外接WS2812可选),扩展
+EN,输入/ strap,10k上拉+1µF+RESET键,复位
+TXD0/RXD0,UART0,调试排针 J10,日志

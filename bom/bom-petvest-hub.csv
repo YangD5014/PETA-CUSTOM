@@ -1,0 +1,51 @@
+﻿PetVest 主控Hub板 — BOM,,,,,,
+位号,分类,Value/规格,封装,推荐型号,说明,数量
+C1 C2 C10 C17 C19,电容,10µF,Capacitor_SMD:C_0805_2012Metric,,,5
+C12 C15 C18,电容,1µF,Capacitor_SMD:C_0603_1608Metric,,,3
+C14,电容,4.7µF,Capacitor_SMD:C_0603_1608Metric,,,1
+C16,电容,2.2µF,Capacitor_SMD:C_0603_1608Metric,,,1
+C3 C4 C5 C6,电容,22µF,Capacitor_SMD:C_0805_2012Metric,,,4
+C7 C8 C9 C11 C13,电容,100nF,Capacitor_SMD:C_0603_1608Metric,,,5
+D1,二极管/LED,PESD5V0S1BA,Diode_SMD:D_SOD-323,,VBUS TVS 5V,1
+D2,二极管/LED,红·充电中,LED_SMD:LED_0603_1608Metric,,,1
+D3,二极管/LED,绿·已充满,LED_SMD:LED_0603_1608Metric,,,1
+D4,二极管/LED,蓝·状态,LED_SMD:LED_0603_1608Metric,,,1
+F1,保险丝,2A/9V,Fuse:Fuse_1812_4532Metric,,PTC自恢复保险丝 2A,1
+J1,连接器,USB-C 16P,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,TYPE-C-31-M-12,USB-C 16P,1
+J10,连接器,Conn_01x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,,调试UART+3V3,1
+J2,连接器,1S 4000mAh,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,1S 4000mAh 带PCM锂电包,锂电池(必须带保护板PCM),1
+J21,连接器,Conn_01x05,Connector_FFC-FPC:TE_84953-5_1x05-1MP_P1.0mm_Horizontal,,IMU节点1·颈部,1
+J22,连接器,Conn_01x05,Connector_FFC-FPC:TE_84953-5_1x05-1MP_P1.0mm_Horizontal,,IMU节点2·左前肩,1
+J23,连接器,Conn_01x05,Connector_FFC-FPC:TE_84953-5_1x05-1MP_P1.0mm_Horizontal,,IMU节点3·右前肩,1
+J24,连接器,Conn_01x05,Connector_FFC-FPC:TE_84953-5_1x05-1MP_P1.0mm_Horizontal,,IMU节点4·左后髋,1
+J25,连接器,Conn_01x05,Connector_FFC-FPC:TE_84953-5_1x05-1MP_P1.0mm_Horizontal,,IMU节点5·右后髋,1
+J26,连接器,Conn_01x05,Connector_FFC-FPC:TE_84953-5_1x05-1MP_P1.0mm_Horizontal,,IMU节点6·尾部,1
+J27,连接器,Conn_01x05,Connector_FFC-FPC:TE_84953-5_1x05-1MP_P1.0mm_Horizontal,,预留扩展通道CH7,1
+J30,连接器,Conn_01x06,Connector_FFC-FPC:TE_84953-6_1x06-1MP_P1.0mm_Horizontal,,MAX30102探头 FPC-6,1
+J40,连接器,Conn_01x02,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,,喇叭8Ω2W(推荐),1
+J41,连接器,Conn_01x06,Connector_FFC-FPC:TE_84953-6_1x06-1MP_P1.0mm_Horizontal,,INMP441麦克风卫星,1
+J50,连接器,Conn_01x04,Connector_FFC-FPC:TE_84953-4_1x04-1MP_P1.0mm_Horizontal,,GNSS模块接口(NEO-6M/ATGM336H),1
+J51,连接器,Conn_01x04,Connector_FFC-FPC:TE_84953-4_1x04-1MP_P1.0mm_Horizontal,,OLED 0.96寸 SSD1306,1
+L1,电感,1.5µH 3.5A,Inductor_SMD:L_Bourns-SRN4018,,功率电感,1
+R1 R2,电阻,5.1k,Resistor_SMD:R_0603_1608Metric,,,2
+R10 R11,电阻,2.2k,Resistor_SMD:R_0603_1608Metric,,,2
+R3,电阻,1.2k,Resistor_SMD:R_0603_1608Metric,,,1
+R4 R5 R9,电阻,1k,Resistor_SMD:R_0603_1608Metric,,,3
+R6 R7 R14,电阻,100k,Resistor_SMD:R_0603_1608Metric,,,3
+R8 R12 R13,电阻,10k,Resistor_SMD:R_0603_1608Metric,,,3
+SW1,开关,POWER,Button_Switch_SMD:SW_SPDT_PCM12,,电源开关,1
+SW2,开关,RESET,Button_Switch_SMD:SW_SPST_SKQG_WithStem,,,1
+SW3,开关,BOOT,Button_Switch_SMD:SW_SPST_SKQG_WithStem,,,1
+TP1,测试点,3V3,TestPoint:TestPoint_Pad_D1.5mm,,,1
+TP2,测试点,GND,TestPoint:TestPoint_Pad_D1.5mm,,,1
+TP3,测试点,BATT,TestPoint:TestPoint_Pad_D1.5mm,,,1
+TP4,测试点,VBUS,TestPoint:TestPoint_Pad_D1.5mm,,,1
+TP5,测试点,RGB_DIN,TestPoint:TestPoint_Pad_D1.5mm,,,1
+U1,IC,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,USBLC6-2SC6,"USB D+/D- ESD (流穿式: 左=MCU侧, 右=连接器侧)",1
+U10,IC,ESP32-S3-WROOM-1-N8R8,RF_Module:ESP32-S3-WROOM-1,ESP32-S3-WROOM-1-N8R8,8MB Flash + 8MB Octal PSRAM,1
+U2,IC,TP4056,Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm,TP4056-42-ESOP8,1A锂电池充电,1
+U20,IC,TCA9548A,Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm,TCA9548APWR,"I2C 0x70, EN=1A+1A+1A",1
+U3,IC,TPS63061,Package_SON:Texas_DRC0010J,TPS63061DSJR,buck-boost 3.3V/1.2A,1
+U30,IC,AP2112K-1.8,Package_TO_SOT_SMD:SOT-23-5,AP2112K-1.8TRG1,1.8V LDO 600mA→MAX30102 VDD,1
+U4,IC,MAX17048,Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.3mm,MAX17048G+T10,电量计 I2C 0x36 (待验证封装),1
+U40,IC,MAX98357A,Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm,MAX98357AATL/V+,I2S D类功放3W,1
