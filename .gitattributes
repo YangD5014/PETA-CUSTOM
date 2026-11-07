@@ -1,0 +1,6 @@
+3d/viewer.html linguist-vendored
+3d/libs/* linguist-vendored
+3d/*.glb linguist-vendored
+3d/*.step linguist-vendored
+3d/*.stl linguist-vendored
+docs/*.pdf linguist-vendored
