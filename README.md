@@ -113,8 +113,10 @@ peta-custom/
 
 ## 5. 3D 展示页 ⭐
 
-仓库自带**零依赖离线展示页**——双击 [`3d/viewer.html`](3d/viewer.html) 即可在浏览器打开
-(需保留 `3d/libs/` 目录;加载的是 KiCad 导出的真实 GLB 模型,非示意图):
+**在线版**(静态资源经 jsDelivr 分发):http://124.222.169.94:2000/KiCAD/3d/viewer-cdn.html
+
+**离线版**:双击 [`3d/viewer.html`](3d/viewer.html) 即可在浏览器打开
+(需保留 `3d/libs/` 目录;两者加载的都是 KiCad 导出的真实 GLB 模型,非示意图):
 
 | 视图 | 内容 |
 |---|---|
